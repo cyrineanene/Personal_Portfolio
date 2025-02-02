@@ -10,15 +10,14 @@ Proficient in Python, machine learning frameworks, and streaming tools, I excel 
 Through various leadership roles have strengthened my teamwork, project management, and problem-solving skills. 
 Dedicated to driving innovation and creating meaningful change through technology, I am actively pursuing opportunities to contribute to cutting-edge AI advancements.`;
 
-export const ABOUT_TEXT = `Ambitious and forward-thinking final-year engineering student at the Higher School of Communication of Tunis (SUPCOM), with hands-on experience in AI fields. 
-I have developed multiple projects based on LLMs, pipelines with RAG architectures, and worked on several innovative solutions. 
-Proficient in Python, machine learning frameworks, and streaming tools, I excel in applying AI to solve complex challenges. 
-Through various leadership roles have strengthened my teamwork, project management, and problem-solving skills. `;
+export const ABOUT_TEXT = `An AI enthusiast with a deep passion for innovation and technological advancement. 
+My perspective blends technical curiosity with strong interpersonal skills. 
+Dedicated to continuous growth, I strive to maintain a balanced and dynamic lifestyle, embracing new challenges that drive both personal and professional development. `;
 
 export const EXPERIENCES = [
   {
     year: "Fev 2025 - Present",
-    role: "PFE Intern",
+    role: "End-of-Studies Intern",
     company: "Amaris Consulting",
     description: `Develop and enhance a 5G network eligibility solution by integrating AI-based features for:
     - Front-office operations: Responding to queries on network eligibility with the integration of voice recognition technology for user interactions and creating a notification system that alerts users about the eligibility of a new network based on their geographic address.
