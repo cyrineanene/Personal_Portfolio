@@ -1,76 +1,103 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/Project-1.png";
+import project2 from "../assets/projects/Project-2.png";
+import project3 from "../assets/projects/Project-3.png";
+import project4 from "../assets/projects/Project-4.png";
+import project5 from "../assets/projects/Project-5.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Ambitious and forward-thinking final-year engineering student at the Higher School of Communication of Tunis (SUPCOM), with hands-on experience in AI fields. 
+I have developed multiple projects based on LLMs, pipelines with RAG architectures, and worked on several innovative solutions. 
+Proficient in Python, machine learning frameworks, and streaming tools, I excel in applying AI to solve complex challenges. 
+Through various leadership roles have strengthened my teamwork, project management, and problem-solving skills. 
+Dedicated to driving innovation and creating meaningful change through technology, I am actively pursuing opportunities to contribute to cutting-edge AI advancements.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Ambitious and forward-thinking final-year engineering student at the Higher School of Communication of Tunis (SUPCOM), with hands-on experience in AI fields. 
+I have developed multiple projects based on LLMs, pipelines with RAG architectures, and worked on several innovative solutions. 
+Proficient in Python, machine learning frameworks, and streaming tools, I excel in applying AI to solve complex challenges. 
+Through various leadership roles have strengthened my teamwork, project management, and problem-solving skills. `;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Fev 2025 - Present",
+    role: "PFE Intern",
+    company: "Amaris Consulting",
+    description: `Develop and enhance a 5G network eligibility solution by integrating AI-based features for:
+    - Front-office operations: Responding to queries on network eligibility with the integration of voice recognition technology for user interactions and creating a notification system that alerts users about the eligibility of a new network based on their geographic address.
+    - Back-office: Extracting Key Performance Indicators and analytics with an AI-based predictive analytics module to anticipate and optimize network planning.`,
+    technologies: ["Python", "NLP", "Voice Recognition"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Sep 2024 - Jan 2024",
+    role: "Generative AI Intern",
+    company: "EY Tunisia",
+    description: `Developed an LLM-based Code Converter that translates code from one programming language to another using Open Source LLMs. Developed a User-friendly Graphical Interface to interact with this tool.`,
+    technologies: ["Python", "HuggingFace", "LangChain", "Pytorch", "StarCoder2-3B", "Llama3.2-3B-Instruct", "Gradio"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "Jul 2024 - Aug 2024",
+    role: "Generative AI & Data Engineering Intern",
+    company: "Orthlane Tunisia",
+    description: `Developed an Intelligent Conversational Assistant based on GPT-4o's API from Microsoft AzureOpenAI using a naive RAG architecture.
+    Implemented a pipeline using Langchain libraries to ensure the retrieval of relevant informations from the vector database and the generation of the response.
+    Developed a User-friendly Graphical Interface to interact with this assistant.`,
+    technologies: ["Python", "Microsoft AzureOpenAI", "GPT-4o","Langchain", "Apache Nifi", "Pinecone", "Docker", "Streamlit"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Jul 2023",
+    role: "Data Analyst Intern",
+    company: "Monitoring & Diagnostic Center of Tunisian Company of Electricity and Gas",
+    description: `Collected and analyzed data from the center's monitoring application.
+    Designed and implemented an interactive dashboard showing the achievements in predictive maintenance of the M&D center.`,
+    technologies: ["Python", "Power BI"],
+  },
+  {
+    year: "Jul 2023",
+    role: " Part-Time Python Instructor",
+    company: "GOMYCODE Tunisia",
+    description: `Taught children the fundamentals of Python and its most commun and used libraries such as Pandas, Numpy, Tkinter, etc.`,
+    technologies: ["Python", "Pandas", "Numpy"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "LLM-based Code Converter",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A tool that enables users to convert and translate code from one programming language to another. Currently works on translating from Python to Java.",
+    github: "https://github.com/cyrineanene/LLM-based-Code-Converter",
   },
   {
-    title: "Task Management App",
+    title: "Air Polluants and Global AQI Forecasting",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "This project aims to predict the Air Polluants and the global Air Quality Index (AQI) of a given country based on historical pollutant data. Using time-series forecasting model, this project estimate AQI values for multiple pollutants and derive an overall global AQI for a given country. The forecasting model relies on Facebook's Prophet, a robust and widely used forecasting tool for time-series analysis.",
+    github: "https://github.com/cyrineanene/Air-Polluants-and-Global-AQI-Forecasting",
   },
   {
-    title: "Portfolio Website",
+    title: "Multimodal Chatbot",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "This project aims to create a multimodal chatbot designed to handle various types of data, including audio, images, and text-based files like PDFs. The chatbot integrates several state-of-the-art LLMs to process and understand different types of input.",
+    github: "https://github.com/cyrineanene/Multimodal-Chatbot",
   },
   {
-    title: "Blogging Platform",
+    title: "Voice Assistant Application",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "This voice assistant allows users to interact through a combination of audio and images. You can ask your desired question in the form of audio input and insert an image. The assistant will transform your audio into text, analyze the image, generate a descriptive text response, and then convert that response back into audio. All interactions are facilitated through an intuitive Gradio interface.",
+    github: "https://github.com/cyrineanene/Voice-Assistant-App",
+  },
+  {
+    title: "Parking Spot Classification",
+    image: project5,
+    description:
+      "This project aims to create a solution for detecting different parking spots, classifing them into empty or not and counting all the available spots in the parking lot. The system utilizes a Support Vector Classifier to determine whether a parking spot is empty or occupied, based on video input.",
+    github: "https://github.com/cyrineanene/Parking-Spot-Classification",
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Tunis, Tunisia",
+  phoneNo: "+219 29 020 501 ",
+  email: "cyrine.anene@supcom.tn",
 };
