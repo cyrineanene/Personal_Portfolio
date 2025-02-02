@@ -1,5 +1,6 @@
 //  Step 1: Import the images and the icons  
-import logo from "../assets/Logo.png";
+ import logo from "../assets/Logo.png";
+// import logo from "../assets/icon.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
