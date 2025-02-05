@@ -3,7 +3,7 @@ import {ABOUT_TEXT} from "../constants";
 const AboutMe = () => {
     return (
       <div className="border-b border-neutral-900 pb-12 lg:mb-20">
-        <h2 className="text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
+        <h2 className="text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">
           About Me
         </h2>
         <p className="my-2 max-w-xl py-6 text-center max-w-3xl mx-auto text-neutral-400 text-xl font-llight tracking-tight mb-12">
