@@ -19,9 +19,9 @@ export const EXPERIENCES = [
     year: "Fev 2025 - Present",
     role: "End-of-Studies Intern",
     company: "Amaris Consulting",
-    description: `Develop and enhance a 5G network eligibility solution by integrating AI-based features for:
-    1. Front-office operations: Responding to queries on network eligibility with the integration of voice recognition technology for user interactions and creating a notification system that alerts users about the eligibility of a new network based on their geographic address.
-    2. Back-office: Extracting Key Performance Indicators and analytics with an AI-based predictive analytics module to anticipate and optimize network planning.`,
+    description: `Develop and enhance a 5G network eligibility solution by integrating AI-based features for:<br />
+    1. Front-office operations: Responding to queries on network eligibility with the integration of voice recognition technology for user interactions and creating a notification system that alerts users about the eligibility of a new network based on their geographic address.<br />
+    2. Back-office operations: Extracting Key Performance Indicators and analytics with an AI-based predictive analytics module to anticipate and optimize network planning.`,
     technologies: ["Python", "NLP", "Voice Recognition"],
   },
   {
