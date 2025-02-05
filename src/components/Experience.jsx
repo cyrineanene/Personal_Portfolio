@@ -3,7 +3,7 @@ import { EXPERIENCES } from "../constants";
 const Experience = () => {
   return (
     <div className="border-b boder-neutral-900 pb-4">
-        <h2 className="my-20 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">
+        <h2 className="my-10 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
             Experience
         </h2>
         <div>

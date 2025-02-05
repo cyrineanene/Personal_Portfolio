@@ -3,6 +3,10 @@ import project2 from "../assets/projects/Project-2.png";
 import project3 from "../assets/projects/Project-3.png";
 import project4 from "../assets/projects/Project-4.png";
 import project5 from "../assets/projects/Project-5.png";
+import certificate1 from "../assets/certificates/nvidia.webp";
+import certificate2 from "../assets/certificates/data_engineering.png";
+import certificate3 from "../assets/certificates/cloud.png";
+import certificate4 from "../assets/certificates/machine_learning.png";
 
 export const HERO_CONTENT = `Ambitious and forward-thinking final-year engineering student at the Higher School of Communication of Tunis (SUPCOM), with hands-on experience in AI fields. 
 I have developed multiple projects based on LLMs, pipelines with RAG architectures, and worked on several innovative solutions. 
@@ -115,7 +119,7 @@ export const CERTIFICATES = [
     description:
       "Earners of this badge have completed the AWS Academy Machine Learning Foundations course.",
     credlyLink: "https://www.credly.com/badges/ea624abd-d57e-4f72-958d-626242f1af80/linked_in_profile",
-    image: project1,
+    image: certificate4,
   },
   {
     title: "AWS Academy Graduate - AWS Academy Data Engineering",
@@ -124,7 +128,7 @@ export const CERTIFICATES = [
     description:
       "Earners of this badge have taken the AWS Academy Cloud Foundations course.",
     credlyLink: "https://www.credly.com/badges/0fa1f4a7-f02f-4ea5-b469-765470be7f20/linked_in_profile",
-    image: project1,
+    image: certificate2,
   },
   {
     title: "AWS Academy Graduate - AWS Academy Cloud Foundations",
@@ -133,7 +137,7 @@ export const CERTIFICATES = [
     description:
       "Earners of this badge have taken the AWS Academy Cloud Foundations course.",
     credlyLink: "https://www.credly.com/badges/84cf4b42-2fc4-44e8-9db6-618d6e436ce5/linked_in_profile",
-    image: project1,
+    image: certificate3,
   },
   {
     title: "Building RAG Agents with LLMs",
@@ -142,6 +146,6 @@ export const CERTIFICATES = [
     description:
       "Earners of this badge have taken the AWS Academy Cloud Foundations course.",
     credlyLink: "https://learn.nvidia.com/certificates?id=RVNNNRQbT4KnNlTljm7IAw",
-    image: project1,
+    image: certificate1,
   },
 ];
