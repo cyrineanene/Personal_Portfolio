@@ -28,7 +28,7 @@ const Certificates = () => {
       >
         {CERTIFICATES.map((certificate, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-neutral-800 p-4 rounded-xl border border-neutral-700 text-center shadow-lg shadow-purple-400/30">
+            <div className="p-4 rounded-xl border border-neutral-700 text-center shadow-lg shadow-purple-400/30 w-full rounded-xl bg-neutral-900 bg-opacity-10">
               <img
                 src={certificate.image}
                 alt={certificate.title}
