@@ -105,3 +105,43 @@ export const CONTACT = {
   phoneNo: "+219 29 020 501 ",
   email: "cyrine.anene@supcom.tn",
 };
+
+
+export const CERTIFICATES = [
+  {
+    title: "AWS Academy Graduate - AWS Academy Machine Learning Foundations",
+    date: "October 17, 2024",
+    issuer: "Amazon Web Services (AWS)",
+    description:
+      "Earners of this badge have completed the AWS Academy Machine Learning Foundations course.",
+    credlyLink: "https://www.credly.com/badges/ea624abd-d57e-4f72-958d-626242f1af80/linked_in_profile",
+    image: project1,
+  },
+  {
+    title: "AWS Academy Graduate - AWS Academy Data Engineering",
+    date: "October 31, 2024",
+    issuer: "Amazon Web Services (AWS)",
+    description:
+      "Earners of this badge have taken the AWS Academy Cloud Foundations course.",
+    credlyLink: "https://www.credly.com/badges/0fa1f4a7-f02f-4ea5-b469-765470be7f20/linked_in_profile",
+    image: project1,
+  },
+  {
+    title: "AWS Academy Graduate - AWS Academy Cloud Foundations",
+    date: "October 19, 2024",
+    issuer: "Amazon Web Services (AWS)",
+    description:
+      "Earners of this badge have taken the AWS Academy Cloud Foundations course.",
+    credlyLink: "https://www.credly.com/badges/84cf4b42-2fc4-44e8-9db6-618d6e436ce5/linked_in_profile",
+    image: project1,
+  },
+  {
+    title: "Building RAG Agents with LLMs",
+    date: "Novembre 7, 2024",
+    issuer: "NVIDIA",
+    description:
+      "Earners of this badge have taken the AWS Academy Cloud Foundations course.",
+    credlyLink: "https://learn.nvidia.com/certificates?id=RVNNNRQbT4KnNlTljm7IAw",
+    image: project1,
+  },
+];
