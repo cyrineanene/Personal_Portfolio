@@ -64,6 +64,7 @@ export const PROJECTS = [
     description:
       "A tool that enables users to convert and translate code from one programming language to another. Currently works on translating from Python to Java.",
     github: "https://github.com/cyrineanene/LLM-based-Code-Converter",
+    date: `September 2024 - January 2025`,
   },
   {
     title: "Air Polluants and Global AQI Forecasting",
@@ -71,6 +72,7 @@ export const PROJECTS = [
     description:
       "This project aims to predict the Air Polluants and the global Air Quality Index (AQI) of a given country based on historical pollutant data. Using time-series forecasting model, this project estimate AQI values for multiple pollutants and derive an overall global AQI for a given country. The forecasting model relies on Facebook's Prophet, a robust and widely used forecasting tool for time-series analysis.",
     github: "https://github.com/cyrineanene/Air-Polluants-and-Global-AQI-Forecasting",
+    date: `November 2024`,
   },
   {
     title: "Multimodal Chatbot",
@@ -78,6 +80,7 @@ export const PROJECTS = [
     description:
       "This project aims to create a multimodal chatbot designed to handle various types of data, including audio, images, and text-based files like PDFs. The chatbot integrates several state-of-the-art LLMs to process and understand different types of input.",
     github: "https://github.com/cyrineanene/Multimodal-Chatbot",
+    date: `August 2024`,
   },
   {
     title: "Voice Assistant Application",
@@ -85,6 +88,7 @@ export const PROJECTS = [
     description:
       "This voice assistant allows users to interact through a combination of audio and images. You can ask your desired question in the form of audio input and insert an image. The assistant will transform your audio into text, analyze the image, generate a descriptive text response, and then convert that response back into audio. All interactions are facilitated through an intuitive Gradio interface.",
     github: "https://github.com/cyrineanene/Voice-Assistant-App",
+    date: `August 2024`,
   },
   {
     title: "Parking Spot Classification",
@@ -92,6 +96,7 @@ export const PROJECTS = [
     description:
       "This project aims to create a solution for detecting different parking spots, classifing them into empty or not and counting all the available spots in the parking lot. The system utilizes a Support Vector Classifier to determine whether a parking spot is empty or occupied, based on video input.",
     github: "https://github.com/cyrineanene/Parking-Spot-Classification",
+    date: `November 2024`,
   },
 ];
 
