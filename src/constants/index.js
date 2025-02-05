@@ -110,7 +110,6 @@ export const CONTACT = {
   email: "cyrine.anene@supcom.tn",
 };
 
-
 export const CERTIFICATES = [
   {
     title: "AWS Academy Graduate - AWS Academy Machine Learning Foundations",
@@ -147,5 +146,15 @@ export const CERTIFICATES = [
       "Earners of this badge have taken the AWS Academy Cloud Foundations course.",
     credlyLink: "https://learn.nvidia.com/certificates?id=RVNNNRQbT4KnNlTljm7IAw",
     image: certificate1,
+  },
+];
+
+const VOLUNTEERING_DATA = [
+  {
+    image: project1,
+    title: 'IndabaX Tunisia 2023',
+    date: 'May 13, 2023',
+    description: 'Leading the Design Team.',
+    role: 'Design Manager.'
   },
 ];

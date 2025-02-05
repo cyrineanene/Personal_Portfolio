@@ -1,3 +1,4 @@
+import Volunteering from "./components/Volunteering";
 import AboutMe from "./components/aboutme";
 import Certificates from "./components/Certificates";
 import Experience from "./components/experience";
@@ -18,6 +19,7 @@ const App = () => {
         <Experience/>
         <Projects/>
         <Certificates/>
+        <Volunteering/>
       </div>
       
   </div>
