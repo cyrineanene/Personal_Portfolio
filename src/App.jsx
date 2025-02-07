@@ -14,12 +14,24 @@ const App = () => {
       <div className="fixed top-0 z-[-2] min-h-full w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       <div className="container mx-auto px-8">
         <Navbar/>
-        <Hero />
-        <AboutMe />
-        <Experience/>
-        <Projects/>
-        <Certificates/>
-        <Volunteering/>
+        <section id="hero">
+          <Hero />
+        </section>
+        <section id="aboutme">
+          <AboutMe />
+        </section>
+        <section id="experience">
+          <Experience/>
+        </section>
+        <section id="projects">
+          <Projects/>
+        </section>
+        <section id="certificates">
+          <Certificates/>
+        </section>
+        <section id="volunteering">
+          <Volunteering/>
+        </section>
       </div>
       
   </div>
