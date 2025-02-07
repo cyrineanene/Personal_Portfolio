@@ -1,5 +1,5 @@
 import Volunteering from "./components/Volunteering";
-import AboutMe from "./components/aboutme";
+import AboutMe from "./components/AboutMe";
 import Certificates from "./components/Certificates";
 import Experience from "./components/experience";
 import Hero from "./components/Hero";
