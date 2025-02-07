@@ -2,7 +2,7 @@ import { PROJECTS } from "../constants";
 
 const Projects = () => {
     return (
-      <div className="border-b boder-neutral-900 pb-4">
+      <div className="border-b border-neutral-900 pb-4"> 
         <h2 className="my-10 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Latest Projects</h2>
         <div className="flex flex-wrap justify-center gap-6">
           {PROJECTS.map((project, index) => (

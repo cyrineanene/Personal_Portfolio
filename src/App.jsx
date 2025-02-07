@@ -5,6 +5,7 @@ import Experience from "./components/experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
         <section id="volunteering">
           <Volunteering/>
         </section>
+        <Footer/>
       </div>
       
   </div>
