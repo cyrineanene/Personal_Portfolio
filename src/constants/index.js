@@ -3,10 +3,21 @@ import project2 from "../assets/projects/Project-2.png";
 import project3 from "../assets/projects/Project-3.png";
 import project4 from "../assets/projects/Project-4.png";
 import project5 from "../assets/projects/Project-5.png";
+
 import certificate1 from "../assets/certificates/nvidia.webp";
 import certificate2 from "../assets/certificates/data_engineering.png";
 import certificate3 from "../assets/certificates/cloud.png";
 import certificate4 from "../assets/certificates/machine_learning.png";
+
+import volunteering1 from "../assets/volunteering/ieee.jpg";
+import volunteering2 from "../assets/volunteering/indabax.jpg";
+import volunteering3 from "../assets/volunteering/sje.jpg";
+import volunteering4 from "../assets/volunteering/tsyp12.png";
+import volunteering5 from "../assets/volunteering/tsyp11-1.jpg";
+import volunteering6 from "../assets/volunteering/citd.jpg";
+import volunteering7 from "../assets/volunteering/ils.jpg";
+import volunteering8 from "../assets/volunteering/mts.png";
+import volunteering9 from "../assets/volunteering/ieeeday.jpg";
 
 export const HERO_CONTENT = `Ambitious and forward-thinking final-year engineering student at the Higher School of Communication of Tunis (SUPCOM), with hands-on experience in AI fields. 
 I have developed multiple projects based on LLMs, pipelines with RAG architectures, and worked on several innovative solutions. 
@@ -149,12 +160,60 @@ export const CERTIFICATES = [
   },
 ];
 
-const VOLUNTEERING_DATA = [
+export const events = [
   {
-    image: project1,
-    title: 'IndabaX Tunisia 2023',
-    date: 'May 13, 2023',
-    description: 'Leading the Design Team.',
-    role: 'Design Manager.'
+    title: "Vice-Chairperson - IEEE SUP'COM Student Branch",
+    description: "text text text.",
+    date: "May 2023",
+    image: volunteering1,
   },
+  {
+    title: "IndabaX Tunisia 2023 - Organizer & Design Manager",
+    description: "text text text.",
+    date: "May 13 & 14, 2023",
+    image: volunteering2,
+  },
+  {
+    title: "Marketing & Communication Department Manager - SUPCOM Junior Entreprise",
+    description: "text text text.",
+    date: "March 2022",
+    image: volunteering3,
+  },
+  {
+    title: "IEEE Tunisian Student & Young Professional Congress, 12th Edition",
+    description: "text text text.",
+    date: "December 18, 2022",
+    image: volunteering4,
+  },
+  {
+    title: "IEEE Tunisian Student & Young Professional Congress, 11th Edition",
+    description: "text text text.",
+    date: "December 18, 2022",
+    image: volunteering5,
+  },
+  {
+    title: "IEEE Day Tunisia Ambassador 2023",
+    description: "text text text.",
+    date: "May 13 & 14, 2023",
+    image: volunteering9,
+  },
+  {
+    title: "Code In the Dark 2.0 - Media Manager",
+    description: "text text text.",
+    date: "February 11, 2022",
+    image: volunteering6,
+  },
+  {
+    title: "IEEE Wie International Leadership Summit Tunisia 2022",
+    description: "text text text.",
+    date: "November 5 & 6, 2022",
+    image: volunteering7,
+  },
+  {
+    title: "Metaverse Tunisian Summit 2.0 - Media Manager",
+    description: "text text text.",
+    date: "November 24-25-26, 2023",
+    image: volunteering8,
+  },
+  
 ];
