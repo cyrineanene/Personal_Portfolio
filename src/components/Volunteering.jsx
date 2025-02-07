@@ -1,4 +1,5 @@
 import { events } from "../constants";
+import { motion } from "framer-motion";
 
 const Volunteering = () => {
   return (
@@ -8,7 +9,12 @@ const Volunteering = () => {
       </div>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {events.map((event, index) => (
-          <div key={index} className="relative group overflow-hidden rounded-2xl shadow-lg">
+          <motion.div 
+            key={index} 
+            className="relative group overflow-hidden rounded-2xl shadow-lg"
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.3 }}
+          >
             <img
               src={event.image}
               alt={event.title}
@@ -19,7 +25,7 @@ const Volunteering = () => {
               <p className="text-sm opacity-90">{event.date}</p>
               <p className="text-sm mt-2">{event.description}</p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
