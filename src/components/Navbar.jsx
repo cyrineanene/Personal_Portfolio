@@ -13,12 +13,12 @@ const Navbar = () => {
         />
       </div>
       <div className="flex space-x-6 text-lg">
-        <a href="#hero" className="hover:text-purple-400">Home</a>
-        <a href="#aboutme" className="hover:text-purple-400">About Me</a>
-        <a href="#experience" className="hover:text-purple-400">Experience</a>
-        <a href="#projects" className="hover:text-purple-400">Projects</a>
-        <a href="#certificates" className="hover:text-purple-400">Certificates</a>
-        <a href="#volunteering" className="hover:text-purple-400">Volunteering</a>
+        <a href="#hero" className="hover:text-purple-700">Home</a>
+        <a href="#aboutme" className="hover:text-purple-700">About Me</a>
+        <a href="#experience" className="hover:text-purple-700">Experience</a>
+        <a href="#projects" className="hover:text-purple-700">Projects</a>
+        <a href="#certificates" className="hover:text-purple-700">Certificates</a>
+        <a href="#volunteering" className="hover:text-purple-700">Volunteering</a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
