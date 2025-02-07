@@ -4,9 +4,7 @@ const Volunteering = () => {
   return (
     <div className="border-b border-neutral-900 pb-16 lg:mb-20">
       <div className="mb-10">
-        <h2 className="my-10 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-          Volunteering
-        </h2>
+        <h2 className="my-10 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Volunteering</h2>
       </div>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {events.map((event, index) => (
