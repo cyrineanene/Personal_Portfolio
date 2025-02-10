@@ -8,6 +8,7 @@ import certificate1 from "../assets/certificates/nvidia.webp";
 import certificate2 from "../assets/certificates/data_engineering.png";
 import certificate3 from "../assets/certificates/cloud.png";
 import certificate4 from "../assets/certificates/machine_learning.png";
+import certificate5 from "../assets/certificates/datacamp.png";
 
 import volunteering1 from "../assets/volunteering/ieee.jpg";
 import volunteering2 from "../assets/volunteering/indabax.jpg";
@@ -157,6 +158,42 @@ export const CERTIFICATES = [
       "Earners of this badge have taken the AWS Academy Cloud Foundations course.",
     credlyLink: "https://learn.nvidia.com/certificates?id=RVNNNRQbT4KnNlTljm7IAw",
     image: certificate1,
+  },
+  {
+    title: "DataCamp - Generative AI Concepts",
+    date: "July 27, 2024",
+    issuer: "DataCamp",
+    description:
+      "Statement of accomplishment for successfully completing the Generative AI Concepts course.",
+    credlyLink: "https://www.datacamp.com/statement-of-accomplishment/course/a8a5d189e3ead7e5040873f0bbc1491215111d15?raw=1",
+    image: certificate5,
+  },
+  {
+    title: "DataCamp - Introduction to Docker",
+    date: "April 16, 2024",
+    issuer: "DataCamp",
+    description:
+      "Statement of accomplishment for successfully completing the Introduction to Docker course.",
+    credlyLink: "https://www.datacamp.com/statement-of-accomplishment/course/14d999ddbec927d109756d7f27a5e8d331f99cca?raw=1",
+    image: certificate5,
+  },
+  {
+    title: "DataCamp - Supervised Learning with scikit-learn",
+    date: "April 16, 2024",
+    issuer: "DataCamp",
+    description:
+      "Statement of accomplishment for successfully completing the Supervised Learning with scikit-learn course.",
+    credlyLink: "https://www.datacamp.com/statement-of-accomplishment/course/14d999ddbec927d109756d7f27a5e8d331f99cca?raw=1",
+    image: certificate5,
+  },
+  {
+    title: "DataCamp - Working with the OpenAI API",
+    date: "April 16, 2024",
+    issuer: "DataCamp",
+    description:
+      "Statement of accomplishment for successfully completing the Working with the OpenAI API course.",
+    credlyLink: "https://www.datacamp.com/statement-of-accomplishment/course/682c3330f6ded413e134636277a0a5c3d561c6f2?raw=1",
+    image: certificate5,
   },
 ];
 
